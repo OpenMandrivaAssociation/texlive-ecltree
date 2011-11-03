@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/eclbip
+# catalog-date 2008-06-01 23:17:13 +0200
+# catalog-license lppl
+# catalog-version 1.1a
 Name:		texlive-ecltree
 Version:	1.1a
 Release:	1
@@ -39,6 +45,7 @@ a 'bundle' environment, with a set of leaves described by
 %{_texmfdistdir}/tex/latex/ecltree/ecltree.sty
 %doc %{_texmfdistdir}/doc/latex/ecltree/ecltreesample.pdf
 %doc %{_texmfdistdir}/doc/latex/ecltree/ecltreesample.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -49,3 +56,5 @@ a 'bundle' environment, with a set of leaves described by
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
