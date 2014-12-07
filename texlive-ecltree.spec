@@ -6,7 +6,7 @@
 # catalog-version 1.1a
 Name:		texlive-ecltree
 Version:	1.1a
-Release:	8
+Release:	9
 Summary:	Trees using epic and eepic macros
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/eclbip
