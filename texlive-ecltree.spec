@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Trees using epic and eepic macros
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/eclbip
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/eclbip
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ecltree.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ecltree.doc.r%{version}.tar.xz
